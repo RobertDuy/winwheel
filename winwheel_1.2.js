@@ -57,16 +57,27 @@ var determinedGetUrl = "get_determined_prize.php";  	 // Set to URL of the serve
 // The important properties are the startAngle and the endAngle in degrees, the name and anything else you want to add is optional.
 // In order to work correctly the the start and end angles need to match the begining and end of the segments for the prizes in your wheel image.
 // Thinking about a clock face, 0 is at the 12 o'clock, 90 is at the 3 o'clock, 180 is 6 o'clock, 270 is 9 o'clock.
+
+// default is 22.5
+
+
 var prizes = new Array();
-prizes[0] = {"name" : "Voucher 100k", "startAngle" : 0,   "endAngle" : 39};  
-prizes[1] = {"name" : "Giảm 50% học phí", "startAngle" : 40,  "endAngle" : 79};
-prizes[2] = {"name" : "Voucher xăng", "startAngle" : 80,  "endAngle" : 119};
-prizes[3] = {"name" : "Voucher 50k", "startAngle" : 120, "endAngle" : 159};
-prizes[4] = {"name" : "Miễn phí 100%", "startAngle" : 160, "endAngle" : 199};
-prizes[5] = {"name" : "Card mobi 100k", "startAngle" : 200, "endAngle" : 239};
-prizes[6] = {"name" : "Áo thun 160k", "startAngle" : 240, "endAngle" : 279};
-prizes[7] = {"name" : "Balo 200k", "startAngle" : 280, "endAngle" : 319};
-prizes[8] = {"name" : "Miễn phí 100%", "startAngle" : 320, "endAngle" : 360};
+prizes[0] = {"name" : "9k", "startAngle" : 0,   "endAngle" : 20}; // nho    (-> 2.5 ) 20
+prizes[1] = {"name" : "Chuột", "startAngle" : 21,  "endAngle" : 42}; // vua (-> .5 ) 21
+prizes[2] = {"name" : "150k", "startAngle" : 43,  "endAngle" : 65}; // to 22
+prizes[3] = {"name" : "7k", "startAngle" : 66, "endAngle" : 86}; // nho
+prizes[4] = {"name" : "40k", "startAngle" : 87, "endAngle" : 108}; // vua
+prizes[5] = {"name" : "Viết", "startAngle" : 109, "endAngle" : 131}; // to
+prizes[6] = {"name" : "60k", "startAngle" : 132, "endAngle" : 153};  // vua
+prizes[7] = {"name" : "100k", "startAngle" : 154, "endAngle" : 176};  // to
+prizes[8] = {"name" : "Móc khóa", "startAngle" : 177, "endAngle" : 199};  // to
+prizes[9] = {"name" : "30k", "startAngle" : 200, "endAngle" : 222}; // to
+prizes[10] = {"name" : "10k", "startAngle" : 223, "endAngle" : 243}; // nho
+prizes[11] = {"name" : "50K", "startAngle" : 244, "endAngle" : 266}; // to
+prizes[12] = {"name" : "80K", "startAngle" : 267, "endAngle" : 288}; // vua
+prizes[13] = {"name" : "BALO", "startAngle" : 289, "endAngle" : 312}; // to
+prizes[14] = {"name" : "40k", "startAngle" : 313, "endAngle" : 336}; // to
+prizes[15] = {"name" : "20k", "startAngle" : 337, "endAngle" : 360}; // to
 
 // Idea: an idea I had for this, but not implimented, is that if you wanted some the prizes / segments in your wheel to be "winners" and some to be "loosers"
 // you could add a property to the items in the prize array stating if win/loose and then in the doSpin function code that is executed when the spinning has

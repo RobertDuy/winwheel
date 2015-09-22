@@ -89,8 +89,8 @@ p.noCanvasMsg
 
 .the_canvas {
     position: absolute;
-    right: 349px;
-    top: 249px;
+    right: 0;
+    top: 159px;
 }
 
 /**
@@ -98,9 +98,21 @@ p.noCanvasMsg
 */
 
 .btn-quay{
-    bottom: 310px;
-    height: 98px;
+    cursor: pointer;
+    height: 100px;
     position: absolute;
-    right: 562px;
-    width: 178px;
+    right: 159px;
+    top: 635px;
+    width: 184px;
+}
+
+.div-background{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 0 solid;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px #888888;
+    height: 738px;
+    width: 1353px;
 }
