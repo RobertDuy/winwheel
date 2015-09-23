@@ -14,83 +14,83 @@ Verison History:
 
 body
 {
-	font-family: verdana, arial, sans-serif;
+    font-family: verdana, arial, sans-serif;
 }
 
 /* Sets the background image for the wheel */
 td.the_wheel
 {
-	background-image: url('back.png');
-	background-position: center;
-	background-repeat: no-repeat;
+    background-image: url('back.png');
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 /* Do some css reset on selected elements */
 h1, p
 {
-	margin: 0;
+    margin: 0;
 }
 
 div.power_controls
 {
-	margin-right:70px;
+    margin-right:70px;
 }
 
 div.html5_logo
 {
-	margin-left:70px;
+    margin-left:70px;
 }
 
 /* Styles for the power selection controls */
 table.power
 {
-	background-color: #cccccc;
-	cursor: pointer;
-	border:1px solid #333333;
+    background-color: #cccccc;
+    cursor: pointer;
+    border:1px solid #333333;
 }
 
 table.power th
 {
-	background-color: white;
-	cursor: default;
+    background-color: white;
+    cursor: default;
 }
 
 td.pw1
 {
-	background-color: #6fe8f0;
+    background-color: #6fe8f0;
 }
 
 td.pw2
 {
-	background-color: #86ef6f;
+    background-color: #86ef6f;
 }
 
 td.pw3
 {
-	background-color: #ef6f6f;
+    background-color: #ef6f6f;
 }
 
 /* Style applied to the spin button once a power has been selected */
 .clickable
 {
-	cursor: pointer;
+    cursor: pointer;
 }
 
 /* Other misc styles */
 .margin_bottom
 {
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 p.noCanvasMsg
 {
-	color: white;
+    color: white;
 }
 
 .the_canvas {
     position: absolute;
-    right: 0;
-    top: 159px;
+    right: -30px;
+    top: 142px;
 }
 
 /**
@@ -99,11 +99,11 @@ p.noCanvasMsg
 
 .btn-quay{
     cursor: pointer;
-    height: 100px;
+    height: 83px;
     position: absolute;
-    right: 159px;
-    top: 635px;
-    width: 184px;
+    right: 103px;
+    top: 514px;
+    width: 148px;
 }
 
 .div-background{
@@ -113,6 +113,7 @@ p.noCanvasMsg
     border: 0 solid;
     border-radius: 20px;
     box-shadow: 10px 10px 5px #888888;
-    height: 738px;
-    width: 1353px;
+    height: 598px;
+    margin-left: 6%;
+    width: 1062px;
 }
